@@ -1,5 +1,5 @@
 document.getElementById('convert-btn').addEventListener('click', function () {
-    // Get user inputs
+    
     const fromCurrency = document.getElementById('from-currency').value;
     const toCurrency = document.getElementById('to-currency').value;
     const amount = parseFloat(document.getElementById('amount').value);
@@ -16,7 +16,7 @@ document.getElementById('convert-btn').addEventListener('click', function () {
         INR: { USD: 0.014, EUR: 0.012, JPY: 1.47, GBP: 0.010, AUD: 0.019, CAD: 0.017, SGD: 0.019, HKD: 0.11, CHF: 0.012 }
     };
 
-    // Perform conversion
+
     if (fromCurrency === toCurrency) {
         document.getElementById('result').textContent = "Cannot convert the same currency.";
     } else if (exchangeRates[fromCurrency] && exchangeRates[fromCurrency][toCurrency]) {
