@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Currency Converter</title>
+   
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+        <form id="currency-form">
+            <div>
+                <label for="from-currency">From Currency</label>
+                <select id="from-currency">
+                    <option value="USD">US Dollar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="JPY">Japanese Yen (JPY)</option>
+                    <option value="GBP">British Pound (GBP)</option>
+                    <option value="AUD">Australian Dollar (AUD)</option>
+                    <option value="CAD">Canadian Dollar (CAD)</option>
+                    <option value="SGD">Singapore Dollar (SGD)</option>
+                    <option value="HKD">Hong Kong Dollar (HKD)</option>
+                    <option value="CHF">Swiss Franc (CHF)</option>
+                    <option value="INR">Indian Rupee (INR)</option>
+                </select>
+            </div>
+            <div>
+                <label for="amount">Amount</label>
+                <input type="number" id="amount" placeholder="Enter amount">
+            </div>
+            <div>
+                <label for="to-currency">To Currency</label>
+                <select id="to-currency">
+                    <option value="USD">US Dollar (USD)</option>
+                    <option value="EUR">Euro (EUR)</option>
+                    <option value="JPY">Japanese Yen (JPY)</option>
+                    <option value="GBP">British Pound (GBP)</option>
+                    <option value="AUD">Australian Dollar (AUD)</option>
+                    <option value="CAD">Canadian Dollar (CAD)</option>
+                    <option value="SGD">Singapore Dollar (SGD)</option>
+                    <option value="HKD">Hong Kong Dollar (HKD)</option>
+                    <option value="CHF">Swiss Franc (CHF)</option>
+                    <option value="INR">Indian Rupee (INR)</option>
+                </select>
+            </div>
+            <button type="button" id="convert-btn">Convert</button>
+        </form>
+        <p id="result"></p>
+    </div>
+
+   <script src="index.js"></script>
+</body>
+</html>

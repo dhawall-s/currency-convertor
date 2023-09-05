@@ -1,0 +1,68 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #06d7dffb, #0808ecfb); /* Add your gradient colors here */
+    /* Text color for better readability on the gradient background */
+    margin-top: 50px;
+    padding: 0;
+    
+}
+
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    background: linear-gradient(to right, #ea07c0fb, #e01010fb); /* Add your gradient colors here */
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+h1 {
+    text-align: center;
+    color:#310ef3fb
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    /* background-color: #007bff; */
+    background: linear-gradient(to right, #1ae707fb, #de0ee9); /* Add your gradient colors here */
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px
+    ;
+}
+
+button:hover {
+    background-color: #dc0eeb;
+}
+
+p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
